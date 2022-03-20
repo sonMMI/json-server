@@ -1,31 +1,251 @@
 {
   "categories": [
     {
-      "id": 1,
-      "name": "Điện thoại",
-      "createAt": 1616346753759,
-      "updateAt": 1616346753759
+      "id": "2c51bb9a-3ea9-4251-bd69-2ea0ec0aebb7",
+      "name": "Industrial",
+      "createdAt": 1647792584018,
+      "updatedAt": 1647792584018
+    },
+    {
+      "id": "b9b8ba28-4158-4182-9b7a-7d96945f32d4",
+      "name": "Books",
+      "createdAt": 1647792584018,
+      "updatedAt": 1647792584018
+    },
+    {
+      "id": "02b84b1f-fca7-43eb-9630-5067b335b787",
+      "name": "Garden",
+      "createdAt": 1647792584018,
+      "updatedAt": 1647792584018
+    },
+    {
+      "id": "5924d916-1925-4921-af45-ab03f546d7e9",
+      "name": "Clothing",
+      "createdAt": 1647792584018,
+      "updatedAt": 1647792584018
     }
   ],
   "products": [
     {
-      "id": 1,
-      "name": "Iphone X",
-      "createAt": 1616346753759,
-      "updateAt": 1616346753759,
-      "categoryId": 1,
-      "salePrice": 15000000
+      "categoryId": "2c51bb9a-3ea9-4251-bd69-2ea0ec0aebb7",
+      "id": "a8ad67d9-3ee4-4509-b554-bae58df2688f",
+      "name": "Awesome Rubber Car",
+      "color": "maroon",
+      "price": 38,
+      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "createdAt": 1647792584018,
+      "updatedAt": 1647792584018,
+      "thumbnailUrl": "http://placeimg.com/400/400"
     },
     {
-      "id": 2,
-      "name": "Iphone 12 Pro Max",
-      "createAt": 1616346753759,
-      "updateAt": 1616346753759,
-      "categoryId": 1,
-      "salePrice": 25000000
+      "categoryId": "2c51bb9a-3ea9-4251-bd69-2ea0ec0aebb7",
+      "id": "8ae79b8f-f030-4761-8db6-3020da0dc90f",
+      "name": "Handmade Metal Cheese",
+      "color": "plum",
+      "price": 860,
+      "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "createdAt": 1647792584018,
+      "updatedAt": 1647792584018,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "2c51bb9a-3ea9-4251-bd69-2ea0ec0aebb7",
+      "id": "c7b3b0ec-93a0-41d3-8704-c5d33ac32696",
+      "name": "Gorgeous Metal Salad",
+      "color": "pink",
+      "price": 746,
+      "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "createdAt": 1647792584018,
+      "updatedAt": 1647792584018,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "2c51bb9a-3ea9-4251-bd69-2ea0ec0aebb7",
+      "id": "645bebf7-bc14-4a7f-8bde-8d1fb4d2756a",
+      "name": "Awesome Steel Soap",
+      "color": "teal",
+      "price": 342,
+      "description": "The Football Is Good For Training And Recreational Purposes",
+      "createdAt": 1647792584019,
+      "updatedAt": 1647792584019,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "2c51bb9a-3ea9-4251-bd69-2ea0ec0aebb7",
+      "id": "2c2ab82e-8c27-46c4-bec6-e268a7d78db6",
+      "name": "Unbranded Rubber Gloves",
+      "color": "violet",
+      "price": 944,
+      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "createdAt": 1647792584019,
+      "updatedAt": 1647792584019,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "b9b8ba28-4158-4182-9b7a-7d96945f32d4",
+      "id": "766b27e6-2912-4cbc-8898-2607b8ec1c36",
+      "name": "Sleek Wooden Chair",
+      "color": "indigo",
+      "price": 703,
+      "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "createdAt": 1647792584019,
+      "updatedAt": 1647792584019,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "b9b8ba28-4158-4182-9b7a-7d96945f32d4",
+      "id": "0170aa26-d46b-40a1-ad13-676fc482dcbb",
+      "name": "Fantastic Cotton Car",
+      "color": "mint green",
+      "price": 342,
+      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "createdAt": 1647792584019,
+      "updatedAt": 1647792584019,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "b9b8ba28-4158-4182-9b7a-7d96945f32d4",
+      "id": "5a3e9359-2a9a-4070-8275-f35600e5e71d",
+      "name": "Tasty Cotton Pizza",
+      "color": "tan",
+      "price": 760,
+      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "createdAt": 1647792584019,
+      "updatedAt": 1647792584019,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "b9b8ba28-4158-4182-9b7a-7d96945f32d4",
+      "id": "55a91fce-4c4c-411b-9402-325b5892b2fa",
+      "name": "Generic Cotton Bacon",
+      "color": "blue",
+      "price": 358,
+      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "createdAt": 1647792584019,
+      "updatedAt": 1647792584019,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "b9b8ba28-4158-4182-9b7a-7d96945f32d4",
+      "id": "7e608c17-d8ed-4539-8c1b-eb5059602467",
+      "name": "Ergonomic Concrete Towels",
+      "color": "grey",
+      "price": 506,
+      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "createdAt": 1647792584019,
+      "updatedAt": 1647792584019,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "02b84b1f-fca7-43eb-9630-5067b335b787",
+      "id": "50e7d48b-3f30-4a14-a060-2527e63507d4",
+      "name": "Awesome Soft Keyboard",
+      "color": "turquoise",
+      "price": 832,
+      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "createdAt": 1647792584019,
+      "updatedAt": 1647792584019,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "02b84b1f-fca7-43eb-9630-5067b335b787",
+      "id": "ff43845f-500c-49d5-8859-0eb81a96cdf8",
+      "name": "Refined Granite Mouse",
+      "color": "grey",
+      "price": 434,
+      "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "createdAt": 1647792584019,
+      "updatedAt": 1647792584019,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "02b84b1f-fca7-43eb-9630-5067b335b787",
+      "id": "81064edc-03e9-4895-97ca-0939192dae29",
+      "name": "Awesome Rubber Towels",
+      "color": "black",
+      "price": 588,
+      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "createdAt": 1647792584019,
+      "updatedAt": 1647792584019,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "02b84b1f-fca7-43eb-9630-5067b335b787",
+      "id": "c92f2994-9e5f-40ee-8711-8a1dc2899d91",
+      "name": "Sleek Rubber Tuna",
+      "color": "black",
+      "price": 559,
+      "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "createdAt": 1647792584019,
+      "updatedAt": 1647792584019,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "02b84b1f-fca7-43eb-9630-5067b335b787",
+      "id": "fc696149-04c1-4c49-849e-8b6fc2dba07a",
+      "name": "Licensed Granite Towels",
+      "color": "purple",
+      "price": 709,
+      "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "createdAt": 1647792584019,
+      "updatedAt": 1647792584019,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "5924d916-1925-4921-af45-ab03f546d7e9",
+      "id": "f969cf90-b7ff-4f61-a8d1-cf19b8725164",
+      "name": "Handcrafted Fresh Ball",
+      "color": "teal",
+      "price": 145,
+      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "createdAt": 1647792584019,
+      "updatedAt": 1647792584019,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "5924d916-1925-4921-af45-ab03f546d7e9",
+      "id": "1cbff016-a79b-404f-856f-f1e5a287b2f9",
+      "name": "Unbranded Wooden Car",
+      "color": "gold",
+      "price": 262,
+      "description": "The Football Is Good For Training And Recreational Purposes",
+      "createdAt": 1647792584019,
+      "updatedAt": 1647792584019,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "5924d916-1925-4921-af45-ab03f546d7e9",
+      "id": "195c007f-467d-4339-aca9-d86263cc02e0",
+      "name": "Incredible Cotton Fish",
+      "color": "green",
+      "price": 291,
+      "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "createdAt": 1647792584019,
+      "updatedAt": 1647792584019,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "5924d916-1925-4921-af45-ab03f546d7e9",
+      "id": "cecd0ccd-a1e2-4e45-842c-02581f476697",
+      "name": "Practical Metal Car",
+      "color": "fuchsia",
+      "price": 137,
+      "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "createdAt": 1647792584019,
+      "updatedAt": 1647792584019,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "5924d916-1925-4921-af45-ab03f546d7e9",
+      "id": "7320ee92-d971-457a-a649-c2cd7671ae34",
+      "name": "Tasty Granite Bacon",
+      "color": "orange",
+      "price": 776,
+      "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "createdAt": 1647792584019,
+      "updatedAt": 1647792584019,
+      "thumbnailUrl": "http://placeimg.com/400/400"
     }
   ],
-  "profile": {
-    "name": "Po"
-  }
+  "profile": { "name": "Po" }
 }
