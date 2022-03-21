@@ -1,8 +1,8 @@
-const faker = require("faker");
-const fs = require("fs");
+const faker = require('faker');
+const fs = require('fs');
 
 //Set locale to use Vietnamese
-faker.locale = "vi";
+faker.locale = 'vi';
 
 // Random data
 // console.log(faker.commerce.department());
@@ -22,6 +22,7 @@ const randomCategoryList = (n) => {
     const category = {
       id: faker.random.uuid(),
       name: faker.commerce.department(),
+      searchTerm: faker.commerce.department(),
       createdAt: Date.now(),
       updatedAt: Date.now(),
     };
@@ -61,20 +62,20 @@ const randomProductList = (categoryList, numberOfProducts) => {
 // IFFE
 (() => {
   // random data
-  const categoryList = randomCategoryList(4);
-  const productList = randomProductList(categoryList, 5);
+  const categoryList = randomCategoryList(5);
+  const productList = randomProductList(categoryList, 20);
 
   // prepare db object
   const db = {
     categories: categoryList,
     products: productList,
     profile: {
-      name: "Po",
+      name: 'Po',
     },
   };
 
   // write db object to db.json
-  fs.writeFile("db.json", JSON.stringify(db), () => {
-    console.log("Generate data successfully =))");
+  fs.writeFile('db.json', JSON.stringify(db), () => {
+    console.log('Generate data successfully =))');
   });
 })();

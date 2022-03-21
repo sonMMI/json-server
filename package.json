@@ -23,7 +23,8 @@
   },
   "homepage": "https://github.com/sonMMI/json-server#readme",
   "dependencies": {
-    "json-server": "^0.17.0"
+    "json-server": "^0.17.0",
+    "query-string": "^7.0.0"
   },
   "devDependencies": {
     "faker": "^5.4.0",
